@@ -1,2 +1,2 @@
 # Fuhad_Sulaimon_ICA
-This project is about a
+This project is about my individual ca.
