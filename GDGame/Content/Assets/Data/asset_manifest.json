@@ -1,0 +1,243 @@
+{
+  "version": 67,
+  "meta": {
+    "author": "Bobr Limited Unlimited",
+    "asset": "MEdieval Mayhem"
+  },
+  "fonts": [
+    {
+      "name": "gamefont",
+      "contentPath": "assets/fonts/gamefont"
+    }
+  ],
+  "textures": [
+    {
+      "name": "ground_grass",
+      "contentPath": "assets/textures/foliage/ground/grass1"
+    },
+    {
+      "name": "skybox_back",
+      "contentPath": "assets/textures/skybox/back"
+    },
+    {
+      "name": "skybox_front",
+      "contentPath": "assets/textures/skybox/front"
+    },
+    {
+      "name": "skybox_left",
+      "contentPath": "assets/textures/skybox/left"
+    },
+    {
+      "name": "skybox_right",
+      "contentPath": "assets/textures/skybox/right"
+    },
+    {
+      "name": "skybox_sky",
+      "contentPath": "assets/textures/skybox/sky"
+    },
+    {
+      "name": "reticle",
+      "contentPath": "assets/textures/ui/mouse/Crosshair_23"
+    },
+    {
+      "name": "colormap",
+      "contentPath": "assets/models/textures/colormap"
+    },
+    {
+      "name": "button",
+      "contentPath": "assets/textures/ui/button_rectangle_12"
+    },
+    {
+      "name": "button2",
+      "contentPath": "assets/textures/ui/button_rectangle_10"
+    },
+    {
+      "name": "hyphon",
+      "contentPath": "assets/textures/ui/Free Flat Hyphen Icon"
+    },
+    {
+      "name": "toggle",
+      "contentPath": "assets/textures/ui/Free Flat Toggle Thumb Centre Icon"
+    },
+    {
+      "name": "home",
+      "contentPath": "assets/textures/ui/home_page"
+    },
+    {
+      "name": "audio",
+      "contentPath": "assets/textures/ui/audio_page"
+    },
+    {
+      "name": "controls",
+      "contentPath": "assets/textures/ui/controls_page"
+    },
+    {
+      "name": "Plane_sand_openPBR_shader1_BaseColor",
+      "contentPath": "assets/textures/Plane_sand_openPBR_shader1_BaseColor"
+    },
+    {
+      "name": "Castle_Section_openPBR_shader1_BaseColor",
+      "contentPath": "assets/textures/Castle_Section_openPBR_shader1_BaseColor"
+    },
+    {
+      "name": "Guilitene_base_lambert1_BaseColor",
+      "contentPath": "assets/textures/Guilitene_base_lambert1_BaseColor"
+    },
+    {
+      "name": "Long_Platform_lambert1_BaseColor",
+      "contentPath": "assets/textures/Long_Platform_lambert1_BaseColor"
+    },
+
+    {
+      "name": "Enviroment_text",
+      "contentPath": "assets/textures/Enviroment_text"
+    },
+    {
+      "name": "Guilitinne_openPBR_shader1_BaseColor",
+      "contentPath": "assets/textures/Guilitinne_openPBR_shader1_BaseColor"
+    },
+    {
+      "name": "small_platform_text",
+      "contentPath": "assets/textures/small_platform_text"
+    },
+    {
+      "name": "Door_Text",
+      "contentPath": "assets/textures/Door_Text"
+    },
+    {
+      "name": "Enterence_Base_Text",
+      "contentPath": "assets/textures/Enterence_Base_Text"
+    },
+    {
+      "name": "Floor_Text",
+      "contentPath": "assets/textures/Floor_Text"
+    },
+    {
+      "name": "Stairs_Base_Text",
+      "contentPath": "assets/textures/Stairs_Base_Text"
+    },
+    {
+      "name": "Steps_Text",
+      "contentPath": "assets/textures/Steps_Text"
+    },
+    {
+      "name": "Spike_lambert1_BaseColor",
+      "contentPath": "assets/textures/Spike_lambert1_BaseColor"
+    }
+  ],
+  "models": [
+    {
+      "name": "plane",
+      "contentPath": "assets/models/plane"
+    },
+    {
+      "name": "ghost",
+      "contentPath": "assets/models/character-ghost"
+    },
+    {
+      "name": "corridor",
+      "contentPath": "assets/models/corridor-intersection"
+    },
+    {
+      "name": "Castle_Section",
+      "contentPath": "assets/models/Castle_Section"
+    },
+    {
+      "name": "Guilitene_base",
+      "contentPath": "assets/models/Guilitene_base"
+    },
+    {
+      "name": "Spike",
+      "contentPath": "assets/models/Spike"
+    },
+    {
+      "name": "Long_Platform_Final",
+      "contentPath": "assets/models/Long_Platform_Final"
+    },
+    {
+      "name": "Test",
+      "contentPath": "assets/models/Test"
+    },
+    {
+      "name": "Test",
+      "contentPath": "assets/models/Test"
+    },
+    {
+      "name": "Spike_Platform",
+      "contentPath": "assets/models/Spike_Platform"
+    },
+    {
+      "name": "Enviroment_Final",
+      "contentPath": "assets/models/Enviroment_Final"
+    },
+    {
+      "name": "Enterence_Base",
+      "contentPath": "assets/models/Enterence_Base"
+    },
+    {
+      "name": "Floor",
+      "contentPath": "assets/models/Floor"
+    },
+    {
+      "name": "Enterence",
+      "contentPath": "assets/models/Enterence"
+    },
+    {
+      "name": "Stairs_Base",
+      "contentPath": "assets/models/Stairs_Base"
+    },
+    {
+      "name": "Steps",
+      "contentPath": "assets/models/Steps"
+    },
+
+    {
+      "name": "Guilitinne_final",
+      "contentPath": "assets/models/Guilitinne_final"
+    }
+  ],
+    "sounds": [
+        {
+            "name": "test-music",
+            "contentPath": "assets/sounds/test-music"
+        },
+        {
+            "name": "fire_audio",
+            "contentPath": "assets/sounds/fire-sound-334130"
+        },
+        {
+            "name": "cat_audio",
+            "contentPath": "assets/sounds/cats-how-56624"
+        },
+        {
+            "name": "dungeon_audio",
+            "contentPath": "assets/sounds/dungeon-air-6983"
+        },
+        {
+            "name": "game_intro",
+            "contentPath": "assets/sounds/intro_extended_3"
+        },
+        {
+            "name": "rattle",
+            "contentPath": "assets/sounds/rattle_loop_1"
+        },
+        {
+            "name": "oof",
+            "contentPath": "assets/sounds/hit_2"
+        },
+        {
+            "name": "main_theme",
+            "contentPath": "assets/sounds/Medieval_Mayhem_OST1.1"
+        },
+        {
+            "name": "ui_click",
+            "contentPath": "assets/sounds/ui_click"
+        }
+
+    ],
+  "effects": [ {
+    "name": "ui_test_effect",
+    "contentPath": "assets/effects/ui/ui_test_effect"
+  }
+  ]
+}
