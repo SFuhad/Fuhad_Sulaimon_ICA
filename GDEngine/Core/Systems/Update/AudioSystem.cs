@@ -274,6 +274,8 @@ namespace GDEngine.Core.Systems
 
         private readonly AudioListener _listener = new AudioListener();
         private readonly AudioEmitter _emitter = new AudioEmitter();
+
+        private SoundEffectInstance? _musicCurrent;
         private SoundEffectInstance? _musicNext;
 
         private float _musicBaseVolume = 1f;
@@ -296,10 +298,6 @@ namespace GDEngine.Core.Systems
         {
             get { return _mixer; }
         }
-
-        public SoundEffectInstance CurrentMusic { get; private set; }
-
-        public AudioListener Listener => _listener;
         #endregion
 
         #region Constructors
@@ -404,22 +402,22 @@ namespace GDEngine.Core.Systems
 
             _musicBaseVolume = MathHelper.Clamp(volume, 0f, 1f);
 
-            if (CurrentMusic == null || fadeInSeconds <= 0f)
+            if (_musicCurrent == null || fadeInSeconds <= 0f)
             {
-                if (CurrentMusic != null)
+                if (_musicCurrent != null)
                 {
-                    CurrentMusic.Stop();
-                    CurrentMusic.Dispose();
+                    _musicCurrent.Stop();
+                    _musicCurrent.Dispose();
                 }
 
-                CurrentMusic = instance;
+                _musicCurrent = instance;
                 _musicCrossFading = false;
                 _musicCrossFadeElapsed = 0f;
                 _musicCrossFadeDuration = 0f;
 
                 float v = _mixer.GetEffectiveVolume(AudioMixer.AudioChannel.Music, _musicBaseVolume);
-                CurrentMusic.Volume = v;
-                CurrentMusic.Play();
+                _musicCurrent.Volume = v;
+                _musicCurrent.Play();
                 return;
             }
 
@@ -440,14 +438,14 @@ namespace GDEngine.Core.Systems
 
         public void StopMusic(float fadeOutSeconds = 0f)
         {
-            if (CurrentMusic == null)
+            if (_musicCurrent == null)
                 return;
 
             if (fadeOutSeconds <= 0f)
             {
-                CurrentMusic.Stop();
-                CurrentMusic.Dispose();
-                CurrentMusic = null;
+                _musicCurrent.Stop();
+                _musicCurrent.Dispose();
+                _musicCurrent = null;
 
                 if (_musicNext != null)
                 {
@@ -558,18 +556,18 @@ namespace GDEngine.Core.Systems
         {
             StopAllSfx();
 
-            if (CurrentMusic != null)
+            if (_musicCurrent != null)
             {
                 try
                 {
-                    CurrentMusic.Stop();
-                    CurrentMusic.Dispose();
+                    _musicCurrent.Stop();
+                    _musicCurrent.Dispose();
                 }
                 catch
                 {
                 }
 
-                CurrentMusic = null;
+                _musicCurrent = null;
             }
 
             if (_musicNext != null)
@@ -624,15 +622,15 @@ namespace GDEngine.Core.Systems
 
         private void UpdateMusic(float deltaTime)
         {
-            if (CurrentMusic == null && _musicNext == null)
+            if (_musicCurrent == null && _musicNext == null)
                 return;
 
             if (!_musicCrossFading)
             {
-                if (CurrentMusic != null)
+                if (_musicCurrent != null)
                 {
                     float v = _mixer.GetEffectiveVolume(AudioMixer.AudioChannel.Music, _musicBaseVolume);
-                    CurrentMusic.Volume = v;
+                    _musicCurrent.Volume = v;
                 }
 
                 return;
@@ -651,27 +649,27 @@ namespace GDEngine.Core.Systems
             if (t > 1f)
                 t = 1f;
 
-            if (_musicNext != null && CurrentMusic != null)
+            if (_musicNext != null && _musicCurrent != null)
             {
                 float vCurrent = _mixer.GetEffectiveVolume(AudioMixer.AudioChannel.Music, _musicBaseVolume * (1f - t));
                 float vNext = _mixer.GetEffectiveVolume(AudioMixer.AudioChannel.Music, _musicBaseVolume * t);
 
-                CurrentMusic.Volume = vCurrent;
+                _musicCurrent.Volume = vCurrent;
                 _musicNext.Volume = vNext;
 
                 if (t >= 1f)
                     CompleteMusicCrossFade();
             }
-            else if (CurrentMusic != null)
+            else if (_musicCurrent != null)
             {
                 float v = _mixer.GetEffectiveVolume(AudioMixer.AudioChannel.Music, _musicBaseVolume * (1f - t));
-                CurrentMusic.Volume = v;
+                _musicCurrent.Volume = v;
 
                 if (t >= 1f)
                 {
-                    CurrentMusic.Stop();
-                    CurrentMusic.Dispose();
-                    CurrentMusic = null;
+                    _musicCurrent.Stop();
+                    _musicCurrent.Dispose();
+                    _musicCurrent = null;
 
                     _musicCrossFading = false;
                     _musicCrossFadeElapsed = 0f;
@@ -688,15 +686,15 @@ namespace GDEngine.Core.Systems
 
         private void CompleteMusicCrossFade()
         {
-            if (CurrentMusic != null && _musicNext != null)
+            if (_musicCurrent != null && _musicNext != null)
             {
-                CurrentMusic.Stop();
-                CurrentMusic.Dispose();
-                CurrentMusic = _musicNext;
+                _musicCurrent.Stop();
+                _musicCurrent.Dispose();
+                _musicCurrent = _musicNext;
                 _musicNext = null;
 
                 float v = _mixer.GetEffectiveVolume(AudioMixer.AudioChannel.Music, _musicBaseVolume);
-                CurrentMusic.Volume = v;
+                _musicCurrent.Volume = v;
             }
 
             _musicCrossFading = false;

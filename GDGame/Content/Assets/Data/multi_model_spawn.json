@@ -7,12 +7,12 @@
   "spawns": [
     {
       "position": [
-        7.2,
-        -0.9,
-        -26
+        -10,
+        5,
+        0
       ],
       "rotationDegrees": [
-        0,
+        -90,
         0,
         0
       ],
@@ -21,321 +21,19 @@
         3,
         3
       ],
-      "textureName": "Long_Platform_lambert1_BaseColor",
-      "modelName": "Long_Platform_Final",
-      "objectName": "Long_Platform_Final"
+      "textureName": "checkerboard",
+      "modelName": "monkey1",
+      "objectName": "spawn-1"
     },
     {
       "position": [
-        3.4,
-        5.2,
-        0.2
+        10,
+        10,
+        -5
       ],
       "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        3,
-        3,
-        3
-      ],
-      "textureName": "Guilitinne_openPBR_shader1_BaseColor",
-      "modelName": "Guilitinne_final",
-      "objectName": "Guilitinne_final"
-    },
-    {
-      "position": [
-        0,
-        1,
-        0
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        3,
-        3,
-        3
-      ],
-      "textureName": "Guilitene_base_lambert1_BaseColor",
-      "modelName": "Guilitene_base",
-      "objectName": "Guilitene_base"
-    },
-    {
-      "position": [
-        3.4,
-        5.2,
-        -3.8
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        3,
-        3,
-        3
-      ],
-      "textureName": "Guilitinne_openPBR_shader1_BaseColor",
-      "modelName": "Guilitinne_final",
-      "objectName": "Guilitinne_final"
-    },
-    {
-      "position": [
-        0,
-        1,
-        -4
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        3,
-        3,
-        3
-      ],
-      "textureName": "Guilitene_base_lambert1_BaseColor",
-      "modelName": "Guilitene_base",
-      "objectName": "Guilitene_base"
-    },
-    {
-      "position": [
-        3.4,
-        5.2,
-        -7.8
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        3,
-        3,
-        3
-      ],
-      "textureName": "Guilitinne_openPBR_shader1_BaseColor",
-      "modelName": "Guilitinne_final",
-      "objectName": "Guilitinne_final"
-    },
-    {
-      "position": [
-        0,
-        1,
-        -8
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        3,
-        3,
-        3
-      ],
-      "textureName": "Guilitene_base_lambert1_BaseColor",
-      "modelName": "Guilitene_base",
-      "objectName": "Guilitene_base"
-    },
-    {
-      "position": [
-        3.4,
-        5.2,
-        -11.8
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        3,
-        3,
-        3
-      ],
-      "textureName": "Guilitinne_openPBR_shader1_BaseColor",
-      "modelName": "Guilitinne_final",
-      "objectName": "Guilitinne_final"
-    },
-    {
-      "position": [
-        0,
-        1,
-        -12
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        3,
-        3,
-        3
-      ],
-      "textureName": "Guilitene_base_lambert1_BaseColor",
-      "modelName": "Guilitene_base",
-      "objectName": "Guilitene_base"
-    },
-    {
-      "position": [
-        3.4,
-        5.2,
-        -15.8
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        3,
-        3,
-        3
-      ],
-      "textureName": "Guilitinne_openPBR_shader1_BaseColor",
-      "modelName": "Guilitinne_final",
-      "objectName": "Guilitinne_final"
-    },
-    {
-      "position": [
-        0,
-        1,
-        -16
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        3,
-        3,
-        3
-      ],
-      "textureName": "Guilitene_base_lambert1_BaseColor",
-      "modelName": "Guilitene_base",
-      "objectName": "Guilitene_base"
-    },
-    {
-      "position": [
-        3.4,
-        5.2,
-        -19.8
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        3,
-        3,
-        3
-      ],
-      "textureName": "Guilitinne_openPBR_shader1_BaseColor",
-      "modelName": "Guilitinne_final",
-      "objectName": "Guilitinne_final"
-    },
-    {
-      "position": [
-        0,
-        1,
-        -20
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        3,
-        3,
-        3
-      ],
-      "textureName": "Guilitene_base_lambert1_BaseColor",
-      "modelName": "Guilitene_base",
-      "objectName": "Guilitene_base"
-    },
-    {
-      "position": [
-        3.4,
-        5.2,
-        -23.8
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        3,
-        3,
-        3
-      ],
-      "textureName": "Guilitinne_openPBR_shader1_BaseColor",
-      "modelName": "Guilitinne_final",
-      "objectName": "Guilitinne_final"
-    },
-    {
-      "position": [
-        0,
-        1,
-        -24
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        3,
-        3,
-        3
-      ],
-      "textureName": "Guilitene_base_lambert1_BaseColor",
-      "modelName": "Guilitene_base",
-      "objectName": "Guilitene_base"
-    },
-    {
-      "position": [
-        0,
-        -0.3,
-        -35
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        3,
-        3,
-        3
-      ],
-      "textureName": "small_platform_text",
-      "modelName": "Spike_Platform",
-      "objectName": "Spike_Platform"
-    },
-
-
-    {
-      "position": [
-        15,
-        0,
-        -100
-      ],
-      "rotationDegrees": [
-        0,
-        0,
+        -90,
+        45,
         0
       ],
       "scale": [
@@ -343,291 +41,69 @@
         2,
         2
       ],
-      "textureName": "Enviroment_text",
-      "modelName": "Enviroment_Final",
-      "objectName": "Enviroment_Final"
-    },
-    {
-      "position": [
-        20,
-        0,
-        -35
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        2,
-        2,
-        2
-      ],
-      "textureName": "Steps_Text",
-      "modelName": "Steps",
-      "objectName": "Steps"
-    },
-    {
-      "position": [
-        20,
-        2,
-        -40
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        2,
-        2,
-        2
-      ],
-      "textureName": "Steps_Text",
-      "modelName": "Steps",
-      "objectName": "Steps"
-    },
-    {
-      "position": [
-        20,
-        4,
-        -45
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        2,
-        2,
-        2
-      ],
-      "textureName": "Steps_Text",
-      "modelName": "Steps",
-      "objectName": "Steps"
-    },
-    {
-      "position": [
-        20,
-        6,
-        -48
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        2,
-        2,
-        2
-      ],
-      "textureName": "Steps_Text",
-      "modelName": "Steps",
-      "objectName": "Steps"
-    },
-    {
-      "position": [
-        20,
-        8,
-        -53
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        2,
-        2,
-        2
-      ],
-      "textureName": "Steps_Text",
-      "modelName": "Steps",
-      "objectName": "Steps"
+      "textureName": "crate1",
+      "modelName": "monkey1",
+      "objectName": "spawn-2"
     },
     {
       "position": [
         20,
         10,
-        -58
+        -5
       ],
       "rotationDegrees": [
-        0,
-        0,
+        -90,
+        45,
         0
       ],
       "scale": [
         2,
-        2,
+        4,
         2
       ],
-      "textureName": "Steps_Text",
-      "modelName": "Steps",
-      "objectName": "Steps"
+      "textureName": "crate1",
+      "modelName": "monkey1",
+      "objectName": "spawn-3"
     },
     {
       "position": [
-        20,
-        12,
-        -63
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        2,
-        2,
-        2
-      ],
-      "textureName": "Steps_Text",
-      "modelName": "Steps",
-      "objectName": "Steps"
-    },
-    {
-      "position": [
-        20,
-        14,
-        -68
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        2,
-        2,
-        2
-      ],
-      "textureName": "Steps_Text",
-      "modelName": "Steps",
-      "objectName": "Steps"
-    },
-    {
-      "position": [
-        20,
-        16,
-        -72
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        2,
-        2,
-        2
-      ],
-      "textureName": "Steps_Text",
-      "modelName": "Steps",
-      "objectName": "Steps"
-    },
-    {
-      "position": [
-        20,
-        -1,
-        -34
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        2,
-        2,
-        2
-      ],
-      "textureName": "Stairs_Base_Text",
-      "modelName": "Stairs_Base",
-      "objectName": "Stairs_Base"
-    },
-    {
-      "position": [
-        20,
-        0,
-        -80
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        2,
-        2,
-        2
-      ],
-      "textureName": "Floor_Text",
-      "modelName": "Floor",
-      "objectName": "Floor"
-    },
-    {
-      "position": [
-        13,
-        20,
-        -135
-      ],
-      "rotationDegrees": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        2,
-        2,
-        2
-      ],
-      "textureName": "Door_Text",
-      "modelName": "Enterence",
-      "objectName": "Enterence"
-    },
-    {
-      "position": [
-        -35,
         30,
-        -130
+        10,
+        -5
       ],
       "rotationDegrees": [
-        0,
-        90,
+        -90,
+        45,
         0
       ],
       "scale": [
-        2,
-        2,
-        2
+        0.9,
+        2.6,
+        4.1
       ],
-      "textureName": "Enterence_Base_Text",
-      "modelName": "Enterence_Base",
-      "objectName": "Enterence_Base"
+      "textureName": "ground_grass",
+      "modelName": "cube",
+      "objectName": "spawn-4"
     },
-
-
     {
       "position": [
-        3.7,
-        1,
-        -31.5
+        50,
+        10,
+        -5
       ],
       "rotationDegrees": [
-        0,
-        0,
-        0
+        -90,
+        45,
+        -45
       ],
       "scale": [
-        3,
-        3,
-        3
+        0.5,
+        0.4,
+        0.3
       ],
-      "textureName": "Spike_lambert1_BaseColor",
-      "modelName": "Spike",
-      "objectName": "Spike"
+      "textureName": "mona lisa",
+      "modelName": "teapot",
+      "objectName": "spawn-5"
     }
   ]
 }

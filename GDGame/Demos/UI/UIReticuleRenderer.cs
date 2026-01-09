@@ -23,11 +23,17 @@ namespace GDEngine.Core.Rendering.UI
             base.Awake();
             // Get ref to draw textures and strings
             _spriteBatch = GameObject?.Scene?.Context.SpriteBatch;
+
+            
+
         }
         public override void Draw(GraphicsDevice device, Camera? camera)
         {
             if (_spriteBatch == null)
                 throw new NullReferenceException(nameof(_spriteBatch));
+
+            if(_texture == null)
+                throw new NullReferenceException(nameof(_texture));
 
             _spriteBatch.Begin(
                 SpriteSortMode.FrontToBack,

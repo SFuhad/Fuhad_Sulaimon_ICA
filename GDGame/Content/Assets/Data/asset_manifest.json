@@ -1,13 +1,21 @@
 {
-  "version": 67,
+  "version": 1,
   "meta": {
-    "author": "Bobr Limited Unlimited",
-    "asset": "MEdieval Mayhem"
+    "author": "NMCG",
+    "asset": "Game assets - Level 1 - Forbidden Planet"
   },
   "fonts": [
     {
-      "name": "gamefont",
-      "contentPath": "assets/fonts/gamefont"
+      "name": "perf_stats_font",
+      "contentPath": "assets/fonts/perfStats"
+    },
+    {
+      "name": "mouse_reticle_font",
+      "contentPath": "assets/fonts/uiReticleText"
+    },
+    {
+      "name": "menufont",
+      "contentPath": "assets/fonts/menufont"
     }
   ],
   "textures": [
@@ -36,205 +44,138 @@
       "contentPath": "assets/textures/skybox/sky"
     },
     {
-      "name": "reticle",
-      "contentPath": "assets/textures/ui/mouse/Crosshair_23"
+      "name": "crate1",
+      "contentPath": "assets/textures/props/crates/crate1"
     },
     {
-      "name": "colormap",
-      "contentPath": "assets/models/textures/colormap"
+      "name": "tree4",
+      "contentPath": "assets/textures/foliage/trees/tree4"
     },
     {
-      "name": "button",
-      "contentPath": "assets/textures/ui/button_rectangle_12"
+      "name": "checkerboard",
+      "contentPath": "assets/textures/demo/checkerboard"
     },
     {
-      "name": "button2",
-      "contentPath": "assets/textures/ui/button_rectangle_10"
+      "name": "mona lisa",
+      "contentPath": "assets/textures/demo/mona lisa"
+    },
+    //UI - BACKGROUND
+    {
+      "name": "white_1x1",
+      "contentPath": "assets/textures/ui/icons/base/white_1x1"
     },
     {
-      "name": "hyphon",
-      "contentPath": "assets/textures/ui/Free Flat Hyphen Icon"
+      "name": "mainmenu_monkey",
+      "contentPath": "assets/textures/ui/backgrounds/mainmenu_monkey"
     },
     {
-      "name": "toggle",
-      "contentPath": "assets/textures/ui/Free Flat Toggle Thumb Centre Icon"
+      "name": "audio_background",
+      "contentPath": "assets/textures/ui/backgrounds/controlsmenu"
     },
     {
-      "name": "home",
-      "contentPath": "assets/textures/ui/home_page"
+      "name": "controlsmenu_monkey",
+      "contentPath": "assets/textures/ui/backgrounds/controlsmenu_monkey"
+    },
+    ///UI - SLIDER
+    {
+      "name": "Free Flat Toggle Thumb Centre Icon",
+      "contentPath": "assets/textures/ui/icons/slider/Free Flat Toggle Thumb Centre Icon"
     },
     {
-      "name": "audio",
-      "contentPath": "assets/textures/ui/audio_page"
+      "name": "Free Flat Hyphen Icon",
+      "contentPath": "assets/textures/ui/icons/slider/Free Flat Hyphen Icon"
+    },
+    ///UI - GRADIENTS
+    {
+      "name": "Free Flat Gradient Vertical (Middle) Icon",
+      "contentPath": "assets/textures/ui/gradients/Free Flat Gradient Vertical (Middle) Icon"
+    },
+    ///UI - BUTTONS
+    {
+      "name": "button_rectangle_10",
+      "contentPath": "assets/textures/ui/icons/buttons/rectangle/button_rectangle_10"
     },
     {
-      "name": "controls",
-      "contentPath": "assets/textures/ui/controls_page"
+      "name": "controlsmenu_monkey",
+      "contentPath": "assets/textures/ui/backgrounds/controlsmenu_monkey"
     },
     {
-      "name": "Plane_sand_openPBR_shader1_BaseColor",
-      "contentPath": "assets/textures/Plane_sand_openPBR_shader1_BaseColor"
+      "name": "mouse_reticle",
+      "contentPath": "assets/textures/ui/mouse/reticleClosed"
     },
     {
-      "name": "Castle_Section_openPBR_shader1_BaseColor",
-      "contentPath": "assets/textures/Castle_Section_openPBR_shader1_BaseColor"
+      "name": "Crosshair_21",
+      "contentPath": "assets/textures/ui/mouse/Crosshair_01"
     },
     {
-      "name": "Guilitene_base_lambert1_BaseColor",
-      "contentPath": "assets/textures/Guilitene_base_lambert1_BaseColor"
+      "name": "mainmenu",
+      "contentPath": "assets/textures/ui/backgrounds/mainmenu"
     },
     {
-      "name": "Long_Platform_lambert1_BaseColor",
-      "contentPath": "assets/textures/Long_Platform_lambert1_BaseColor"
-    },
-
-    {
-      "name": "Enviroment_text",
-      "contentPath": "assets/textures/Enviroment_text"
+      "name": "mainmenu_monkey",
+      "contentPath": "assets/textures/ui/backgrounds/mainmenu_monkey"
     },
     {
-      "name": "Guilitinne_openPBR_shader1_BaseColor",
-      "contentPath": "assets/textures/Guilitinne_openPBR_shader1_BaseColor"
-    },
-    {
-      "name": "small_platform_text",
-      "contentPath": "assets/textures/small_platform_text"
-    },
-    {
-      "name": "Door_Text",
-      "contentPath": "assets/textures/Door_Text"
-    },
-    {
-      "name": "Enterence_Base_Text",
-      "contentPath": "assets/textures/Enterence_Base_Text"
-    },
-    {
-      "name": "Floor_Text",
-      "contentPath": "assets/textures/Floor_Text"
-    },
-    {
-      "name": "Stairs_Base_Text",
-      "contentPath": "assets/textures/Stairs_Base_Text"
-    },
-    {
-      "name": "Steps_Text",
-      "contentPath": "assets/textures/Steps_Text"
-    },
-    {
-      "name": "Spike_lambert1_BaseColor",
-      "contentPath": "assets/textures/Spike_lambert1_BaseColor"
+      "name": "controlsmenu_monkey",
+      "contentPath": "assets/textures/ui/backgrounds/controlsmenu_monkey"
     }
   ],
   "models": [
     {
+      "name": "monkey1",
+      "contentPath": "assets/models/monkey1"
+    },
+    {
+      "name": "cube",
+      "contentPath": "assets/models/cube"
+    },
+    {
+      "name": "teapot",
+      "contentPath": "assets/models/teapot"
+    },
+    {
+      "name": "teapot_lowpoly",
+      "contentPath": "assets/models/teapot_lowpoly"
+    },
+    {
       "name": "plane",
       "contentPath": "assets/models/plane"
-    },
-    {
-      "name": "ghost",
-      "contentPath": "assets/models/character-ghost"
-    },
-    {
-      "name": "corridor",
-      "contentPath": "assets/models/corridor-intersection"
-    },
-    {
-      "name": "Castle_Section",
-      "contentPath": "assets/models/Castle_Section"
-    },
-    {
-      "name": "Guilitene_base",
-      "contentPath": "assets/models/Guilitene_base"
-    },
-    {
-      "name": "Spike",
-      "contentPath": "assets/models/Spike"
-    },
-    {
-      "name": "Long_Platform_Final",
-      "contentPath": "assets/models/Long_Platform_Final"
-    },
-    {
-      "name": "Test",
-      "contentPath": "assets/models/Test"
-    },
-    {
-      "name": "Test",
-      "contentPath": "assets/models/Test"
-    },
-    {
-      "name": "Spike_Platform",
-      "contentPath": "assets/models/Spike_Platform"
-    },
-    {
-      "name": "Enviroment_Final",
-      "contentPath": "assets/models/Enviroment_Final"
-    },
-    {
-      "name": "Enterence_Base",
-      "contentPath": "assets/models/Enterence_Base"
-    },
-    {
-      "name": "Floor",
-      "contentPath": "assets/models/Floor"
-    },
-    {
-      "name": "Enterence",
-      "contentPath": "assets/models/Enterence"
-    },
-    {
-      "name": "Stairs_Base",
-      "contentPath": "assets/models/Stairs_Base"
-    },
-    {
-      "name": "Steps",
-      "contentPath": "assets/models/Steps"
-    },
-
-    {
-      "name": "Guilitinne_final",
-      "contentPath": "assets/models/Guilitinne_final"
     }
   ],
-    "sounds": [
-        {
-            "name": "test-music",
-            "contentPath": "assets/sounds/test-music"
-        },
-        {
-            "name": "fire_audio",
-            "contentPath": "assets/sounds/fire-sound-334130"
-        },
-        {
-            "name": "cat_audio",
-            "contentPath": "assets/sounds/cats-how-56624"
-        },
-        {
-            "name": "dungeon_audio",
-            "contentPath": "assets/sounds/dungeon-air-6983"
-        },
-        {
-            "name": "game_intro",
-            "contentPath": "assets/sounds/intro_extended_3"
-        },
-        {
-            "name": "rattle",
-            "contentPath": "assets/sounds/rattle_loop_1"
-        },
-        {
-            "name": "oof",
-            "contentPath": "assets/sounds/hit_2"
-        },
-        {
-            "name": "main_theme",
-            "contentPath": "assets/sounds/Medieval_Mayhem_OST1.1"
-        },
-        {
-            "name": "ui_click",
-            "contentPath": "assets/sounds/ui_click"
-        }
-
-    ],
+  "sounds": [
+    {
+      "name": "explosion1",
+      "contentPath": "assets/sounds/Explosion 1"
+    },
+    {
+      "name": "hand_gun1",
+      "contentPath": "assets/sounds/Hand Gun 1"
+    },
+    {
+      "name": "laser_gun_salve",
+      "contentPath": "assets/sounds/Laser Gun Salve"
+    },
+    {
+      "name": "secret_door",
+      "contentPath": "assets/sounds/Secret door"
+    },
+    {
+      "name": "SFX_UI_Click_Designed_Pop_Generic_1",
+      "contentPath": "assets/sounds/ui/SFX_UI_Click_Designed_Pop_Generic_1"
+    },
+    {
+      "name": "SFX_UI_Click_Designed_Pop_Mallet_Open_1",
+      "contentPath": "assets/sounds/ui/SFX_UI_Click_Designed_Pop_Mallet_Open_1"
+    },
+    {
+      "name": "SFX_UI_Click_Designed_Pop_Movement_Open_1",
+      "contentPath": "assets/sounds/ui/SFX_UI_Click_Designed_Pop_Movement_Open_1"
+    },
+    {
+      "name": "SFX_UI_Click_Designed_Pop_Negative_Close_1",
+      "contentPath": "assets/sounds/ui/SFX_UI_Click_Designed_Pop_Negative_Close_1"
+    }
+  ],
   "effects": [ {
     "name": "ui_test_effect",
     "contentPath": "assets/effects/ui/ui_test_effect"
